@@ -16,7 +16,7 @@ David Teller, MLState, Head of the R&D Team
 
 (currently Mozilla, Tech Lead)
 
-** * ** Not everything made it to production.
+** (*) ** Not everything made it to production.
 
 ---
 
@@ -114,8 +114,8 @@ So what?
 database int /counter = 0;
 client function reaction(number) {
   #msg = <div>Thank you, user number {number}!</div> // Typed DSL
-  // number:   int
-  // {number}: string (sanitized)
+  // number:   anything that can be converted to string.
+  // {number}: string (sanitized).
 }
 client function page() {
   <>
@@ -182,7 +182,7 @@ public function action(_) { // That's on the web server.
 
 ---
 
-# Web peers distribution
+# Distribution between web servers
 
 - Erlang-style "let it crash" error model.
 - Static analysis/language design/API design guarantee that all state lives on the database or the client (*).
@@ -230,4 +230,5 @@ class: middle
 
 # Thank you
 
-Any questions?
+- Any questions?
+- Slides: https://yoric.github.io/about-opalang/
