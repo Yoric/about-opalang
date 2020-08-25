@@ -1,0 +1,23 @@
+.reveal img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.reveal pre code {
+    background-color: lightgray;
+    border: inset;
+}
+
+.reveal section img {
+    border: none;
+    background: none;
+}
+
+img {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+p,ul {
+    font-size: 200%;
+}
