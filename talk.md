@@ -14,7 +14,7 @@ class: center, middle
 
 David Teller, MLState, Head of the R&D Team
 
-(currently Mozilla, Tech Lead)
+(currently Mozilla, Project Fission)
 
 ** (*) ** Not everything made it to production.
 
@@ -129,7 +129,7 @@ client function page() {
 --
 
 - Strong, static typing avoids injections.
-- XML schemas map *are* static types.
+- XML schemas *are* static types.
 - Database schemas *are* static types.
 - Also, usual FP types.
 
@@ -223,7 +223,7 @@ class: center, middle
 - MLstate and the project died shortly after.
 
 --
-- But the ideas live on :)
+- But the enthusiasm lives on :)
 
 ---
 class: middle
